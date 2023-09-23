@@ -66,5 +66,11 @@ After deploying the `UniswapV2Router02`, you can use the following command to ex
 npx hardhat run scripts/provideLiquidity.js --network caerus
 ```
 
+### 4. Token Swaps:
+Once liquidity is provided, you can execute token swaps between CAERUS tokens and ETH.
+```
+npx hardhat run scripts/performSwap.js --network caerus
+```
+
 ## Conclusion
 If you would like to contribute to the project, please fork the repository, make your changes, and then submit a pull request. We appreciate all contributions and feedback!
